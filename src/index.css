@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; scroll-padding-top: 6.5rem; }
+body { @apply font-sans text-navy bg-white antialiased; }
+:focus-visible { outline: 3px solid #FF9A0A; outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { transition: none !important; } }
+
+.blueprint {
+  background-color: #0F1B33;
+  background-image:
+    linear-gradient(rgba(255,255,255,.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.05) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+.clip-hero { clip-path: polygon(14% 0, 100% 0, 100% 100%, 0 100%); }
+.clip-btn { clip-path: polygon(0 0, 100% 0, calc(100% - 14px) 100%, 0 100%); }
+.clip-tab { clip-path: polygon(0 0, 100% 0, calc(100% - 18px) 100%, 0 100%); }
