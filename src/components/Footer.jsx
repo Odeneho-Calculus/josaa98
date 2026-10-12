@@ -9,7 +9,7 @@ const WHATSAPP = '233249778376'
 
 const NAV = [
   ['Home', '/#home'],
-  ['Services', '/#services'],
+  ['Services', '/services'],
   ['About', '/#about'],
   ['Why Us', '/#why'],
   ['Projects', '/#projects'],

@@ -80,11 +80,6 @@ export default function Gallery() {
   const [activeIndex, setActiveIndex] = useState(null)
   const opener = useRef(null)
   const photos = category === 'All photos' ? galleryImages : galleryImages.filter(photo => photo.category === category)
-  useEffect(() => {
-    const previousTitle = document.title
-    document.title = 'Project Gallery | Josaa98 Construction and Civil Works'
-    return () => { document.title = previousTitle }
-  }, [])
   return (
     <>
       <section className="gallery-hero relative overflow-hidden bg-navy text-white">
@@ -98,7 +93,7 @@ export default function Gallery() {
             <div className="mt-10 flex gap-8 border-t border-white/15 pt-6"><div><span className="text-2xl font-bold">22</span><p className="mt-1 text-xs text-white/60">Moments on site</p></div><div><span className="text-2xl font-bold">5</span><p className="mt-1 text-xs text-white/60">Collections to explore</p></div></div>
           </div>
           <div className="gallery-hero-collage" aria-hidden="true">
-            <img className="gallery-hero-main" src="/images/concrete-frame-construction-overview.jpeg" alt="" fetchPriority="high" />
+            <img className="gallery-hero-main" src="/images/concrete-frame-construction-overview.jpeg" alt="" fetchpriority="high" />
             <img className="gallery-hero-detail" src="/images/team-tying-column-reinforcement.jpeg" alt="" />
             <div className="gallery-hero-note"><span className="block text-xs uppercase tracking-[.2em] text-brand-orange">From the ground up</span><span className="mt-2 block text-sm font-semibold">Every stage. Every detail.</span></div>
           </div>

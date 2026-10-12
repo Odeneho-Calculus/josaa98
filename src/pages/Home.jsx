@@ -61,7 +61,7 @@ function Hero() {
           </h1>
           <div className="mt-4 h-1 w-40 rounded-full bg-brand-orange" />
           <p className="mt-8 max-w-md border-l-4 border-brand-orange pl-4 text-base leading-relaxed text-white/85">
-            We deliver solid construction solutions for residential, commercial and civil projects.
+            Based in Kumasi, Ghana, we deliver solid construction solutions for residential, commercial and civil projects.
             From concept to completion, we build with excellence.
           </p>
           <div className="mt-10 flex flex-wrap gap-4">
@@ -74,7 +74,7 @@ function Hero() {
           </div>
         </div>
         <div className="relative">
-          <Photo file="hero.png" alt="Modern two-storey house built by Josaa98" className="clip-hero h-80 sm:h-[26rem] lg:h-[32rem]" />
+          <Photo file="hero.png" alt="Modern two-storey residential house" priority className="clip-hero h-80 sm:h-[26rem] lg:h-[32rem]" />
           <div className="absolute -bottom-3 left-0 right-0 h-2 bg-gradient-to-r from-brand-blue to-brand-orange" />
         </div>
       </div>
@@ -115,6 +115,7 @@ function Services() {
             <div>
               <h3 className="font-script text-3xl text-brand-orange">Your Project, Our Priority</h3>
               <p className="mt-4 text-sm leading-relaxed text-white/80">Tell us what you plan to build and we will take it from concept to completion.</p>
+              <Link to="/services" className="mt-5 inline-flex items-center gap-2 text-sm font-bold text-brand-orange">Explore all services <ArrowRight size={16} /></Link>
             </div>
             <a href="#contact" className="mt-8 inline-flex items-center gap-2 text-sm font-bold text-brand-orange">
               Start your project <ArrowRight size={16} />

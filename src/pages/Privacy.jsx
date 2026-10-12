@@ -9,7 +9,7 @@ export default function Privacy() {
           <Shield className="text-brand-orange" size={32} />
           <h1 className="text-3xl font-extrabold text-navy">Privacy Policy</h1>
         </div>
-        <p className="text-sm text-navy/60">Last updated: {new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' })}</p>
+        <p className="text-sm text-navy/60">Last updated: 12 October 2026</p>
 
         <div className="mt-8 space-y-8 text-sm leading-relaxed text-navy/80">
           <section>

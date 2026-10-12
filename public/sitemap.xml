@@ -1,27 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://josaa98.org/</loc>
-    <lastmod>2026-09-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://josaa98.org/privacy</loc>
-    <lastmod>2026-09-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://josaa98.org/gallery</loc>
-    <lastmod>2026-10-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://josaa98.org/terms</loc>
-    <lastmod>2026-09-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url><loc>https://josaa98.org/</loc></url>
+<url><loc>https://josaa98.org/gallery</loc><image:image><image:loc>https://josaa98.org/images/concrete-frame-construction-overview.jpeg</image:loc></image:image><image:image><image:loc>https://josaa98.org/images/team-tying-column-reinforcement.jpeg</image:loc></image:image><image:image><image:loc>https://josaa98.org/images/foundation-blockwork-layout.jpeg</image:loc></image:image><image:image><image:loc>https://josaa98.org/images/wheel-loader-earthworks.jpeg</image:loc></image:image><image:image><image:loc>https://josaa98.org/images/construction-site-team-meeting.jpeg</image:loc></image:image><image:image><image:loc>https://josaa98.org/images/multi-storey-concrete-frame.jpeg</image:loc></image:image><image:image><image:loc>https://josaa98.org/images/foundation-slab-steel-mesh.jpeg</image:loc></image:image><image:image><image:loc>https://josaa98.org/images/crew-installing-column-reinforcement.jpeg</image:loc></image:image><image:image><image:loc>https://josaa98.org/images/beam-formwork-overview.jpeg</image:loc></image:image><image:image><image:loc>https://josaa98.org/images/site-team-briefing.jpeg</image:loc></image:image><image:image><image:loc>https://josaa98.org/images/foundation-blockwork-crew.jpeg</image:loc></image:image><image:image><image:loc>https://josaa98.org/images/crew-positioning-steel-reinforcement.jpeg</image:loc></image:image><image:image><image:loc>https://josaa98.org/images/slab-reinforcement-team.jpeg</image:loc></image:image><image:image><image:loc>https://josaa98.org/images/foundation-formwork-installation.jpeg</image:loc></image:image><image:image><image:loc>https://josaa98.org/images/cleared-and-levelled-construction-site.jpeg</image:loc></image:image><image:image><image:loc>https://josaa98.org/images/crew-installing-beam-formwork.jpeg</image:loc></image:image><image:image><image:loc>https://josaa98.org/images/construction-team-discussion.jpeg</image:loc></image:image><image:image><image:loc>https://josaa98.org/images/reinforced-column-base-formwork.jpeg</image:loc></image:image><image:image><image:loc>https://josaa98.org/images/slab-formwork-crew.jpeg</image:loc></image:image><image:image><image:loc>https://josaa98.org/images/column-reinforcement-inspection.jpeg</image:loc></image:image><image:image><image:loc>https://josaa98.org/images/column-reinforcement-site-inspection.jpeg</image:loc></image:image><image:image><image:loc>https://josaa98.org/images/column-steel-inspection.jpeg</image:loc></image:image></url>
+<url><loc>https://josaa98.org/services</loc></url>
+<url><loc>https://josaa98.org/privacy</loc></url>
+<url><loc>https://josaa98.org/terms</loc></url>
 </urlset>
