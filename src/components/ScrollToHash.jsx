@@ -12,8 +12,8 @@ export function ScrollToHash() {
           el.scrollIntoView({ behavior: 'smooth', block: 'start' })
         }, 100)
       }
-    } else if (pathname === '/') {
-      window.scrollTo({ top: 0, behavior: 'smooth' })
+    } else {
+      window.scrollTo({ top: 0, behavior: 'instant' })
     }
   }, [hash, pathname])
   return null

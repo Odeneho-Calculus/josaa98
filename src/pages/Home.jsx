@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import {
   Home as HomeIcon, Building2, HardHat, Hammer, ClipboardList,
   ShieldCheck, Clock, Handshake, Users, Send, ArrowRight,
@@ -9,7 +10,7 @@ import { SectionTitle } from '../components/SectionTitle'
 
 const PHONE = '0249778376'
 const WHATSAPP = '233249778376'
-const EMAIL = 'info@josaa98.com'
+const EMAIL = 'kwamenasackeyato@gmail.com'
 const ADDRESS = 'Accra, Ghana'
 
 const SERVICES = [
@@ -195,6 +196,9 @@ function Projects() {
               <figcaption className="absolute bottom-0 left-0 bg-brand-orange px-4 py-2 text-sm font-bold text-navy">{label}</figcaption>
             </figure>
           ))}
+        </div>
+        <div className="mt-8 flex justify-center">
+          <Link to="/gallery" className="inline-flex items-center gap-3 bg-navy px-7 py-4 text-sm font-bold text-white transition-colors hover:bg-brand-orange hover:text-navy">Explore our company gallery <ArrowRight size={18} /></Link>
         </div>
       </div>
     </section>

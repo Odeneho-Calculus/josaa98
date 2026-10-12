@@ -11,6 +11,7 @@ const NAV = [
   ['About', '/#about'],
   ['Why Us', '/#why'],
   ['Projects', '/#projects'],
+  ['Gallery', '/gallery'],
   ['Contact', '/#contact'],
 ]
 
@@ -21,7 +22,7 @@ export function Header() {
     <header className="sticky top-0 z-50 bg-white shadow-sm">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-3">
         <Logo />
-        <nav className="hidden lg:flex items-center gap-8" aria-label="Main">
+        <nav className="hidden lg:flex items-center gap-5" aria-label="Main">
           {NAV.map(([label, href]) => (
             <Link
               key={href}

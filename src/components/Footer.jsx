@@ -3,7 +3,7 @@ import { Phone, Mail, MapPin, Facebook, Instagram, Linkedin } from 'lucide-react
 import { Logo } from './Logo'
 
 const PHONE = '0249778376'
-const EMAIL = 'info@josaa98.com'
+const EMAIL = 'kwamenasackeyato@gmail.com'
 const ADDRESS = 'Accra, Ghana'
 const WHATSAPP = '233249778376'
 
@@ -13,6 +13,7 @@ const NAV = [
   ['About', '/#about'],
   ['Why Us', '/#why'],
   ['Projects', '/#projects'],
+  ['Gallery', '/gallery'],
   ['Contact', '/#contact'],
 ]
 

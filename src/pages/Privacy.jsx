@@ -73,7 +73,7 @@ export default function Privacy() {
             <h2 className="text-lg font-bold text-navy">7. Contact Us</h2>
             <p className="mt-2">
               If you have any questions about this Privacy Policy, please contact us at{' '}
-              <a href="mailto:info@josaa98.com" className="text-brand-blue hover:underline">info@josaa98.com</a>{' '}
+              <a href="mailto:kwamenasackeyato@gmail.com" className="text-brand-blue hover:underline">kwamenasackeyato@gmail.com</a>{' '}
               or call{' '}
               <a href="tel:0249778376" className="text-brand-blue hover:underline">0249778376</a>.
             </p>
