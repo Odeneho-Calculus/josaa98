@@ -11,7 +11,7 @@ import { SectionTitle } from '../components/SectionTitle'
 const PHONE = '0249778376'
 const WHATSAPP = '233249778376'
 const EMAIL = 'kwamenasackeyato@gmail.com'
-const ADDRESS = 'Accra, Ghana'
+const ADDRESS = 'Kumasi, Ghana'
 
 const SERVICES = [
   { icon: HomeIcon, title: 'Residential Construction', tag: 'Design | Build | Finish', img: 'residential.png' },
@@ -164,12 +164,14 @@ function Why() {
     <section id="why" className="bg-white py-20">
       <div className="mx-auto max-w-7xl px-5">
         <SectionTitle sub="What you can expect when you build with us.">Why Choose Us</SectionTitle>
-        <div className="grid gap-px overflow-hidden border border-navy/10 bg-navy/10 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-px overflow-hidden border border-navy/10 bg-navy/10 sm:grid-cols-2 xl:grid-cols-4">
           {VALUES.map(({ icon: Icon, title, text }) => (
-            <div key={title} className="bg-white p-8">
-              <Icon className="text-brand-orange" size={40} strokeWidth={1.5} />
-              <h3 className="mt-5 text-lg font-bold">{title}</h3>
-              <p className="mt-2 text-sm leading-relaxed text-navy/70">{text}</p>
+            <div key={title} className="bg-white p-6">
+              <div className="flex items-center gap-3">
+                <Icon className="shrink-0 text-brand-orange" size={32} strokeWidth={1.5} aria-hidden="true" />
+                <h3 className="text-base font-bold">{title}</h3>
+              </div>
+              <p className="mt-4 text-sm leading-relaxed text-navy/70">{text}</p>
             </div>
           ))}
         </div>

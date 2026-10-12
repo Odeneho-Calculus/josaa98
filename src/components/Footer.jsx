@@ -4,7 +4,7 @@ import { Logo } from './Logo'
 
 const PHONE = '0249778376'
 const EMAIL = 'kwamenasackeyato@gmail.com'
-const ADDRESS = 'Accra, Ghana'
+const ADDRESS = 'Kumasi, Ghana'
 const WHATSAPP = '233249778376'
 
 const NAV = [
