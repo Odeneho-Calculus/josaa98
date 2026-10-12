@@ -165,7 +165,7 @@ const VALUES = [
 **Phone:** 0249778376  
 **WhatsApp:** [233249778376](https://wa.me/233249778376)  
 **Website:** [http://localhost:5173](http://localhost:5173) (development)  
-**Email:** info@josaa98.com (update in contact section)
+**Email:** kwamenasackeyato@gmail.com
 
 ---
 

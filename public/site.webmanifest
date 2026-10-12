@@ -1,0 +1,13 @@
+{
+  "name": "Josaa98 Construction and Civil Works",
+  "short_name": "Josaa98",
+  "description": "Residential, commercial and civil construction services in Kumasi, Ghana.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#001020",
+  "theme_color": "#001020",
+  "icons": [
+    { "src": "/images/brand/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/images/brand/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}
